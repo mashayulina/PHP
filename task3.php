@@ -9,7 +9,7 @@ $y = 100;
 while($current < $y)
 {
     $x += $x / 10;
-    $current += $x;
+    $current += $x/10;
     $days++;
 }
 
